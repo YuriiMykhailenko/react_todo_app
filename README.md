@@ -9,7 +9,7 @@
 
 #### [Demo Link](https://yuriimykhailenko.github.io/react_todo_app/)
 
-### Technologies Used
+### Technologies Used (node v14.21.3)
 - React
 - TypeScript
 - SCSS
