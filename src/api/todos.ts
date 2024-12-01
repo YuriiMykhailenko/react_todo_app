@@ -11,6 +11,6 @@ export const postTodo = (todo: Omit<Todo, 'id'>): Promise<Todo> =>
   client.post<Todo>('/todos', todo);
 
 export const patchTodo = (propsToChange: object, id: number): Promise<Todo> =>
-  client.patch<Todo>(`/todos7/${id}`, propsToChange);
+  client.patch<Todo>(`/todos/${id}`, propsToChange);
 
 export const deleteTodo = (todoId: number) => client.delete(`/todos/${todoId}`);

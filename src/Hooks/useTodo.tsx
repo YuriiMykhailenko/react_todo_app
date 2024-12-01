@@ -50,7 +50,7 @@ export function useTodo() {
 
   const handleChangeTodos = useCallback(
     (newTodos: Todo[]) => {
-      return Promise.all(
+      return Promise.allSettled(
         newTodos.map(todo => {
           setTodosForUpdate(current => [...current, todo]);
 

@@ -1,9 +1,21 @@
-# React TypeScript Starter Pack
+# A simple Todo app with the following functionality
+- Add todo
+- Delete todo
+- Edit todo title
+- Change todo status (active/completed)
+- Toggle all (active/completed)
+- Filter todos (all/active/completed)
+- Remove all completed
 
-To use this template click `Use this template`
+#### [Demo Link](https://yuriimykhailenko.github.io/react_todo_app/)
 
-### Available Scripts
+### Technologies Used
+- React
+- TypeScript
+- SCSS
+- Lodash (debounce)
 
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+### To Run This Project Locally
+1. Clone the repository: `git clone [link]`
+2. Install all dependencies: `npm i`
+3. Start the development server: `npm start`
